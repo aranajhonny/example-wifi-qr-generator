@@ -7,4 +7,4 @@ Open the program `Endpoint URL` and create QR code for your WiFi network.
 
 Paste the following URL in your browser to open the directory inside the Membrane VSCode Extension.
 
-vscode://membrane.membrane/directory/example-qr-generator
+vscode://membrane.membrane/directory/example-wifi-qr-generator
