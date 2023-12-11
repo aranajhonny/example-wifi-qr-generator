@@ -18,7 +18,7 @@
           }
         ],
         "fields": [],
-        "description": "Type schema for a WiFi QR code generator"
+        "description": "Example of a WiFi QR code generator"
       }
     ]
   },
