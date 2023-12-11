@@ -10,12 +10,15 @@
             "params": [
               {
                 "name": "text",
-                "type": "String"
+                "type": "String",
+                "description": "The text containing the WiFi network details for generating the QR code"
               }
-            ]
+            ],
+            "description": "Generates an SVG QR code for the provided WiFi network details"
           }
         ],
-        "fields": []
+        "fields": [],
+        "description": "Example of a WiFi QR code generator"
       }
     ]
   },
