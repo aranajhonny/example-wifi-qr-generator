@@ -24,7 +24,6 @@
   },
   "dependencies": {
     "http": "http:",
-    "repos": "github:users.one(name:\"juancampa\").repos",
     "forms": "forms:"
   }
 }
