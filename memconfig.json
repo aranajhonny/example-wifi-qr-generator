@@ -25,6 +25,6 @@
   "dependencies": {
     "http": "http:",
     "repos": "github:users.one(name:\"juancampa\").repos",
-    "forms": "membrane-program-forms:"
+    "forms": "forms:"
   }
 }
