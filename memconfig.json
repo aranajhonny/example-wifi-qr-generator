@@ -22,8 +22,5 @@
       }
     ]
   },
-  "dependencies": {
-    "http": "http:",
-    "forms": "forms:"
-  }
+  "dependencies": {}
 }
