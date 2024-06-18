@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@shortcm/qr-image": "^7.0.2"
+    "qreator": "^9.3.0"
   }
 }

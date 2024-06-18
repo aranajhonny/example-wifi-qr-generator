@@ -1,13 +1,13 @@
 import { nodes, root, state } from "membrane";
-import { getSVG } from "@shortcm/qr-image/lib/svg";
+import { getSVG } from "qreator/lib/svg";
 
-export async function genSVG({ args: { text } }) {
+export async function genSVG({ text }) {
   const svg = await getSVG(text);
-  const string = Buffer.from(svg, "base64").toString("utf8");
+  const string = new TextDecoder().decode(svg);
   return string.replace(/<\?xml.*\?>/g, "");
 }
 
-export async function endpoint({ args: { path, body } }) {
+export async function endpoint({ path, body }) {
   switch (path) {
     case "/qr": {
       let { name, password } = parseQS(body);
